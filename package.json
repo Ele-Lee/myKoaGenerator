@@ -1,0 +1,24 @@
+{
+  "name": "koaframe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\\"
+  },
+  "author": "elelee",
+  "license": "ISC"
+}
