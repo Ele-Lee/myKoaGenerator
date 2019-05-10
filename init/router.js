@@ -2,7 +2,6 @@ const routerConfig = require('../routersConfig/index.js')
 const Router = require('koa-router')
 const router = Router()
 
-
 Object.entries(routerConfig).map(([key, value]) => {
     let routerItem = new Router()
     setRoute(routerItem, value)
